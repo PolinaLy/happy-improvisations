@@ -1,6 +1,30 @@
 /*Imported Fonts*/
 
-/*Body*/
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
 html {
-    background-color: #2d2d2d;
+    background-color: #161616;
+    color: white;
+}
+
+.slide {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    overflow: auto;
+}
+
+.outer-wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
